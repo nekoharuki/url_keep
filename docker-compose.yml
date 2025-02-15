@@ -18,4 +18,4 @@ services:
     depends_on:
       - db
     environment:
-      RAILS_MASTER_KEY: 3a51ed19bbbde7e0598980e7a4921e07
+      RAILS_MASTER_KEY: <%= ENV["RAILS_MASTER_KEY"] %>
